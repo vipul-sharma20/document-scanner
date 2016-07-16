@@ -4,6 +4,8 @@ document-scanner
 A document scanner built using OpenCV + Python.
 I highly recommend to see my blog post for better understanding: [http://vipulsharma20.blogspot.on](http://vipulsharma20.blogspot.in)
 
+My sincere thanks to the article and the author here: [http://www.pyimagesearch.com/2014/09/01/build-kick-ass-mobile-document-scanner-just-5-minutes/](http://www.pyimagesearch.com/2014/09/01/build-kick-ass-mobile-document-scanner-just-5-minutes/) which has some really good set of articles on OpenCV and way more informative.
+
 * Original Image
 ![Alt](http://1.bp.blogspot.com/-gbFBHQKFU7w/VpGzzVfxmLI/AAAAAAAAEks/jtX2fikHs5o/s1600/Original.jpg "original")
 
