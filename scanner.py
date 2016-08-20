@@ -2,10 +2,10 @@ import cv2
 import numpy as np
 import rect
 
-# add image here. 
-# We can also use laptop's webcam if the resolution is good enough to capture 
+# add image here.
+# We can also use laptop's webcam if the resolution is good enough to capture
 # readable document content
-image = cv2.imread('test_s1.jpg')
+image = cv2.imread('../Downloads/temp-2.jpg')
 
 # resize image so it can be processed
 # choose optimal dimensions such that important content is not lost
@@ -33,12 +33,12 @@ contours = sorted(contours, key=cv2.contourArea, reverse=True)
 
 # get approximate contour
 for c in contours:
-	p = cv2.arcLength(c, True)
-	approx = cv2.approxPolyDP(c, 0.02 * p, True)
+    p = cv2.arcLength(c, True)
+    approx = cv2.approxPolyDP(c, 0.02 * p, True)
 
-        if len(approx) == 4:
-		target = approx
-		break
+    if len(approx) == 4:
+        target = approx
+        break
 
 
 # mapping target points to 800x800 quadrilateral
